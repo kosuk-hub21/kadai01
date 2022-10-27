@@ -1,0 +1,441 @@
+/* ここから下に記載していく */
+@charset "UTF-8";
+html{
+    font-size :62.5%;/* 16px  ×  62.5% =10px */
+}
+
+
+body{
+    color:  #333333;
+    font-family:"Open Sans",'ヒラギノ角ゴ ProN W3', Hiragino Kaku Gothic ProN, "メイリオ", Meiryo, sans-serif;
+    font-size:1.6rem;
+    
+}
+
+
+
+img{
+    max-width: 100%;
+    height: auto;
+    
+    }
+
+
+ .text-center{
+   text-align: center;
+   margin: 40px;
+ }   
+
+ /* ---------------------------
+hero-image
+*----------------------------*/
+.hero-image{
+    position: relative;
+}
+
+
+.hero-image-text{
+ position:absolute;
+ top: 150px;
+ left: 40px;
+ transform: translate3d(-50%,-50%,0);
+ color:#fff;
+ font-size: 3.2rem;
+ font-weight: bold;
+ white-space: nowrap;
+ text-align: center;
+}
+.hero-image-text span{
+    font-size: 1.9rem;
+    font-weight: 400;
+}
+
+/* ---------------------------
+header
+*----------------------------*/
+
+.header{
+ background-color: #bfbfbf;
+
+}
+.header_wrapper{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+
+.site-title{
+    font-size:24px;
+    font-weight:bold;
+
+}
+
+.nav-list{
+    display: flex;
+    
+
+}
+
+.nave-item{
+   margin: 0 0 0 50px;
+
+}
+.nav-item>a{
+  color:#fff;
+  text-transform:uppercase ;
+
+}
+
+
+ 
+/* ------------------------------------
+about 
+-----------------------------------*/
+
+
+.profile{
+padding: 60px 0;
+
+
+}
+.wrapper{
+ max-width: 560px;
+ margin:auto;
+}
+
+.profile-title{
+    margin: 60px 0 30px;
+    font-size: 2.4rem;
+    font-weight:bold;
+    color: #ffd61a;
+
+}
+
+.profile-eyecatch{
+ margin: 0 0 60px;
+
+}
+
+.profile-name{
+    margin:0 0 30px ;
+    font-size:1.8rem;
+}
+
+.profile-text{
+line-height: 2;
+text-align: justify;
+
+}
+.box{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+.box img{
+    width: 25%;
+}
+
+ 
+
+/* ------------------------------------
+course
+-----------------------------------*/
+
+
+.course-wrapper{
+  display: flex;
+ margin-top: 60px;
+ flex-wrap: wrap;
+ list-style: none;
+ background-color: #bfbfbf;
+
+}
+.course-wrapper li{
+    width:50%;
+}
+/* .course-text{
+    width:560px;
+  
+  } */
+.course-title{
+    margin: 60px 0 30px;
+    font-size: 2.4rem;
+    font-weight:bold;
+
+}
+.course-name{
+    margin:30px 0  60px 50px ;
+    font-size:2.4rem;
+    font-weight: bold;
+}
+
+.course-name1{
+    
+    margin:0 0 60px 50px ;
+    font-size:1.8rem;
+    font-weight: bold;
+}
+
+.course-name2{
+    
+    margin:0 50px 60px 50px ;
+    font-size:1.8rem;
+    font-weight: bold;
+}
+    /* ---------------------------
+more
+*----------------------------*/
+
+.btn{
+display:block;
+width: 214px;
+margin: auto;
+padding: 21px 0;
+ background-color: #ffd61a;
+ color: #fff;
+ font-size: 1.8rem;
+ text-align: center;
+}
+
+
+/* ---------------------------
+NEWS
+*----------------------------*/
+
+.wrapper{
+ max-width: 1140px;
+ margin:bold;
+
+}
+
+.News{
+   padding: 60px ;
+
+}
+.News_list{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    width: 960px;
+}
+
+
+.News_title{
+    margin: 60px 0 30px 0;
+    font-size :2.4rem ;
+    font-weight: bold;
+    color: #ffd61a;
+   }
+
+.News-name{
+    margin: 0 0 60px;
+}
+
+.News_item{
+    width: 33.333%;
+
+}
+
+
+.News_eyecatch{
+    margin:0 0 60px;
+}
+.News_contents{
+ padding: 0 24px;
+
+}
+.News_heading{
+   margin: 0 0 24px;
+
+}
+
+/* ---------------------------
+Access
+*----------------------------*/
+
+.Access{
+    background-color: #bfbfbf;
+    padding: 60px 0;
+}
+
+.Access-title{
+    margin: 60px 0 30px;
+    font-size: 2.4rem;
+    font-weight:bold;
+}
+
+
+
+.Access-name{
+    margin:0 0 30px ;
+    font-size:1.8rem;
+}
+
+
+.iframe-wrp{
+            position: relative;
+            width: 100%;
+            padding-top: 35%; /* = height ÷ width × 100 */
+          }
+
+.iframe-wrp iframe{
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+          }
+/* ---------------------------
+contact
+*----------------------------*/
+.contact{
+    padding:60px 0 30px 0;
+    margin:0 0 64px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    
+
+}
+.contact_title{
+    margin: 60px 0 30px 0;
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.contact_name1{
+    margin:60px 0 0 0;
+    /* margin:0 0 30px; */
+    font-size:1.8rem;
+}
+
+
+
+.contact_name2{
+    margin:30px 0 70px 0;
+    /* margin:0 0 30px; */
+    font-size:1.8rem;
+}
+
+.border-solid {
+    border: solid;
+    margin-top: 100px; 
+    width: 100%;    
+}
+
+
+/* ---------------------------
+form
+*----------------------------*/
+
+.form-wrapper{
+    width: 650px;
+    margin: auto;
+    text-align: center;
+}
+
+.form-inner{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 0 30px;
+    width: 680px;
+}
+.form-inner dl{
+    border-top: 1px solid #000;
+}
+.form-title{
+    width: 230px;
+    margin: 0 20px 0 0;
+    padding: 8px 0 0 0;
+    font-weight: bold;
+    text-align: right;
+    float: left;
+    border-right: 1px solid #000;
+    height: 40px;
+}
+.form-title.border01{
+height:287px;
+}
+.border-solid{
+  border: 1px solid;
+  border: #333333;
+  margin-top: 70px;
+  
+}
+
+.form-item{
+    width: 400px;
+    margin:0 0 16px;
+    float:right;
+}
+
+.form-title.check-radio{
+    padding: 0;
+
+}
+
+
+
+.form-parts{
+appearance:none;
+-webkit-appearance:none;
+ -moz-appearance:none;
+box-sizing: border-box;
+width: 400px;
+margin: 8px;
+border:solid 1px #c9c9c9;
+font-size:1.8rem;
+
+} 
+
+
+.form-label{
+    margin:0 16px 0 0;
+    font-size:1.4rem;
+}
+
+
+
+input[type*="radio"]{
+appearance:none;
+ -webkit-appearance:none;
+ -moz-appearance:none;
+ width:16px;
+ height:16px ;
+ margin:0 10px 0 0; 
+ border:solid 1px #a0a0a0;
+ vertical-align: -2px;
+
+}
+input[type*="radio"]:checked{
+    background-color: #a0a0a0
+    ;
+}
+
+/* ---------------------------
+footer
+*----------------------------*/
+
+.footer.wrapper{
+ position: relative;
+
+}
+
+
+.btn-submit{
+appearance:none;
+-webkit-appearance:none ;
+-moz-appearance:none;
+border: none;
+}
+
+
+.footer{
+    padding: 24px 0;
+    background-color: #707070;
+}
+
+
+.copyrights{
+    color: #fff;
+}
